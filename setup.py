@@ -17,16 +17,16 @@ def get_version(rel_path: str) -> str:
 
 
 setup(
-    name="jal",
+    name="Kamblossi",
     version=get_version("jal/__init__.py"),
-    author_email="jal@gmx.ru",
-    description="Just Another Ledger - project to track personal financial records",
+    author_email="newton.ochieng97@gmail.com",
+    description="Personal Finance Tracker",
     long_description_content_type='text/markdown',
     long_description=read('jal/pypi_description.md'),
     packages=find_packages(),
     package_dir={'jal': 'jal'},
     python_requires=">=3.8.1",
-    url="https://github.com/titov-vv/jal",
+    url="https://github.com/Kamblossi/Personal-Finance-Tracker",
     classifiers=[
         "Development Status :: 3 - Alpha",
         "Topic :: Office/Business",
